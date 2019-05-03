@@ -1,97 +1,100 @@
     body {
-        margin: 0%;
-        font-family: monospace;
-        color: black;
-    }
-    .imagemmaior {
-        position: relative;
-        display: flex;
-        justify-content: center;
-
-    }
-    #img{
-        width: 100%;
-        height: 500px;
-    }
-    #ImgInside{
-        position: absolute;
-        width: 10%;
-        height: 25%;
-    }
-    .title {
-        font-size: 30px;
-        text-align: center;
-        line-height: 80px;
-        border-bottom: #3A6BB0 2px solid;
-    }
-    .meio {
-        width: 100%;
-        height: 500px;
-        display: flex;
-        justify-content: space-around;
-    }
-    #quadroGeral {
-        width: 70%;
-        height: 100%;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        align-content: center;
-    }
-    #quadros {
-        width: 25%; 
-        height: 60%; 
-        border: 2px rgb(213, 213, 235) solid;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #quadroSuperior {
-        width: 100%; 
-        line-height: 400%;
-        border-bottom: 2px rgb(213, 213, 235) solid;
-        text-align: center;
-        font-size: 20px;
-    }
-    #quadroMeio {
-        width: 85%; 
-        height: 40%;
-        text-align: left;
-        font-size: 15px;
-        line-height: 40px;
-        color: rgb(90, 90, 90);
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: left;
-    }
-    #quadroFooter {
-        width: 85%; 
-        line-height: 400%;
-        text-align: center;
-        font-size: 22px;
-    }
-    footer {
-        position: static;
-        background-color:#7692FF;
-        width: 100%;
-        line-height: 250%;
-        display: flex;
-        justify-content: space-around;
-    }
-    #divfoot { 
-        line-height: 250%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    #img1 {
-        width: 12px; 
-        height: 15px;
-        margin-top: 100%;
-    }
-    #img2 {
-        width: 20px; 
-        height: 15px;
-        margin-top: 70%;
-    }
+                margin: 0%;
+                font-family: monospace;
+                color: black;
+            }
+            .head {
+                position: relative;
+                display: flex;
+                justify-content: center;
+        
+            }
+            #banner{
+		object-fit: cover;
+                width: 100%;
+                height: 500px;
+                top: 100px;
+            }
+            #logo{
+                position: absolute;
+                width: 15%;
+                height: 25%;
+            }
+            .title {
+                font-size: 30px;
+                text-align: center;
+                line-height: 80px;
+                border-bottom: #97C7FF 2px solid;
+            }
+            .meio {
+                width: 100%;
+                height: 500px;
+                display: flex;
+                justify-content: space-around;
+            }
+            #quadroGeral {
+                width: 70%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                align-content: center;
+            }
+            #quadros {
+                width: 25%; 
+                height: 60%; 
+                border: 2px #D6DBE2 solid;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            #quadroSuperior {
+                width: 100%; 
+                line-height: 400%;
+                border-bottom: 2px #97C7FF solid;
+                text-align: center;
+                font-size: 20px;
+            }
+            #quadroMeio {
+                width: 85%; 
+                height: 40%;
+                text-align: left;
+                font-size: 15px;
+                line-height: 40px;
+                color: #8A8788;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: left;
+            }
+            #quadroFooter {
+                width: 85%; 
+                line-height: 400%;
+                text-align: center;
+                font-size: 22px;
+            }
+            footer {
+                position: static;
+                background-color: #3A6BB0;
+                width: 100%;
+                line-height: 250%;
+                display: flex;
+                justify-content: space-around;
+            }
+            #divfoot { 
+                line-height: 250%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                color: white;
+            }
+            #phone {
+                width: 12px; 
+                height: 15px;
+                margin-top: 100%;
+            }
+            #mail {
+                width: 18px; 
+                height: 15px;
+                margin-top: 70%;
+            }    
